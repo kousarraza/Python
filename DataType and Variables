@@ -1,1 +1,67 @@
 
+#Integer data type
+""" a=7
+b=3.5
+print(a)
+print(b)
+ """
+
+#String
+""" a="Apple"
+b="Banana"
+x,y="Kiwi","Mango"
+print(a)
+print(b)
+print(x+"\n"+y) """
+
+#Float data type
+
+""" x=12.4
+y=34.6
+print(x+y) """
+
+
+#Complex Data Type
+""" x=23j
+y=26j
+print(x+y) """
+
+
+#Type Conversion  one data type to another data type
+# String to Int
+
+a=3
+b='3'
+
+#now we add 3 and 3, note value of b is string, first we change it into int then add.
+print(a+int(b))
+
+#Int to String
+x=33
+y='kousar'
+print(str(x)+y)
+
+
+#Float to Int and Int to Float
+n1=3.3
+n2=4
+print(int(n1))
+print(float(n2))
+
+#Check Data type 
+print(type(n1))
+print(type(n2))
+
+
+#Random Function in Python
+import random
+print(random.randrange(1,10)) #It Generate random number between 1 and 10 on every time run.
+
+
+
+
+
+
+
+
+
